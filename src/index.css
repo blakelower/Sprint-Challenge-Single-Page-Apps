@@ -27,13 +27,45 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
-
 header h1 {
   text-align: center;
 }
+.div{
+  padding: 40px;
+  color: red;
+}
+#loc{
+  color: #3CE80D;
+}
+#type{
+  color: #6907D4;
+}
+#dim{
+  color: #F2EB09;
+}
+form
+{
+    height: 96px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 96px;
+    font-size: 60px;
+    line-height: 1;
+}
+
+input[type="text"]::placeholder
+{
+    color: #01ECDB;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+
+
